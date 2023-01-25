@@ -32,7 +32,6 @@ function onFormSubmit(evt) {
   console.log(formData);
 
   feedbackForm.reset();
-
   localStorage.removeItem(STORAGE_KEY);
 }
 
